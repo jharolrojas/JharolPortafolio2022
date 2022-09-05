@@ -882,6 +882,16 @@ section {
   }
 
 }
+@media (max-width: 1199px) {
+
+
+ 
+
+  #footer .copyright {
+    display: none;
+  }
+
+}
 /* cv */
 .cv{
   width: 150px;
