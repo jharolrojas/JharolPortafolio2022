@@ -2,13 +2,14 @@
     position: relative;
     width: 100%;
     background: #149DDD;
-    height: 0px;
-    padding: 20px 50px;
+    max-height: 0px;
+    /* padding: 20px 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 145px;
+    margin-top: 35px;
+   
 
 }
 
@@ -58,12 +59,13 @@
 
 .footer .wave {
     position: absolute;
-    top: -100px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 50px;
     background: url(../img/wave.png);
     background-size: 1000px 100px;
+  
 
 }
 
@@ -129,4 +131,19 @@
     }
 
 
+}
+
+@media (max-width: 1199px) {
+   
+  .footer .wave{
+    height: 100px;
+  }
+  .footer {
+    margin-top: 0;
+  }
+
+    .wave {
+      /* margin-top: 30px; */
+      
+    }
 }

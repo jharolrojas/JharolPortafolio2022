@@ -159,7 +159,7 @@ h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 12px 15px;
+  padding: 5px 20px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
@@ -223,8 +223,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/yo2.jpg") top center;
-background-size: contain;
+  background: url("../img/prueba.jpg") top center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 #hero:before {
@@ -396,16 +397,18 @@ section {
   margin-top: -2px;
   border-left: 2px solid #1f5297;
   position: relative;
+  margin-left:30px ;
 }
 
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
+
 }
 
 .resume .resume-item h5 {
@@ -593,7 +596,7 @@ section {
 }
 
 .services .description {
-  margin-left: 80px;
+  margin-left: 10px;
   line-height: 24px;
   font-size: 14px;
 }
@@ -833,7 +836,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  /* padding: 15px; */
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
@@ -841,12 +844,18 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  /* background: #040b14; */
+  height: 80px;
   max-height: 200px;
+ 
 }
 
 #footer .copyright {
   text-align: center;
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  z-index: 50000;
 }
 
 #footer .credits {
@@ -859,9 +868,19 @@ section {
 @media (max-width: 1199px) {
   #footer {
     position: static;
-    width: auto;
+    width:100%;
     padding-right: 20px 15px;
+
+   
   }
+
+ 
+
+  #footer .copyright {
+    left: 43%;
+    top: 30px;
+  }
+
 }
 /* cv */
 .cv{
