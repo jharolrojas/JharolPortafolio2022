@@ -385,7 +385,7 @@ section {
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -402,7 +402,7 @@ section {
 
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
